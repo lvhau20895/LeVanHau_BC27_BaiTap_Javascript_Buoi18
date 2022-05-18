@@ -175,6 +175,7 @@ function demSoNguyen() {
             tongSoNguyen++;
         }
     }
+    getId("showSoNguyen").style.display ="block";
     getId("showSoNguyen").innerHTML = `Có ${tongSoNguyen} số nguyên`;
 }
 
